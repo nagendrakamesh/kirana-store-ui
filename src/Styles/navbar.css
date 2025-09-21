@@ -1,0 +1,6 @@
+.nav-link.active {
+  font-weight: 600;             /* make it bold */
+  text-decoration: underline;   /* show underline */
+  text-decoration-thickness: 2px; /* thicker line */
+  text-underline-offset: 8px;   /* <-- adds gap between text & underline */
+}

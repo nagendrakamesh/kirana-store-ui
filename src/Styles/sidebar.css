@@ -1,0 +1,33 @@
+/* Sidebar container */
+.sidebar {
+  width: 22%; /* ~20-25% */
+  min-height: 100vh;
+  background-color: #198754; /* Bootstrap green */
+  color: white;
+  box-shadow: 2px 0 5px rgba(0,0,0,0.1);
+}
+
+/* Sidebar links */
+.sidebar-link {
+  display: flex;
+  align-items: center;
+  padding: 12px 15px;
+  margin: 6px 0;
+  border-radius: 6px;
+  text-decoration: none;
+  color: white;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+}
+
+/* Hover effect */
+.sidebar-link:hover {
+  background-color: #157347; /* darker green */
+  text-decoration: none;
+}
+
+/* Active link */
+.sidebar-link.active {
+  background-color: #145c32;
+  font-weight: bold;
+}
